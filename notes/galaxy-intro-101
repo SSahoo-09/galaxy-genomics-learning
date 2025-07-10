@@ -42,7 +42,7 @@ The need to to intersect the file with the exon locations with the file containi
 This helped in locating which exon had the highest number of SNPs. Working with the workflow editors to change parameters settings took some time to navigate however it was quite seemless and straightforward.
 
 📤 What I Uploaded to GitHub
-✅ Galaxy-Workflow-QC_and_filtering.ga (workflow file)
+✅ Find_exons_with_the_highest_number_of_features.ga (workflow file)
 
 ✅ Summary notes (this post!)
 
