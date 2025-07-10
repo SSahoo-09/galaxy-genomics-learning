@@ -20,12 +20,13 @@ This log captures my reflections, learnings, and challenges as I go through the 
 
 **Tutorial Completed**: Galaxy Basics for Genomics  
 **Key Concepts Learned**:
-- Quality control using FastQC
+- Counting and Sorting SNPs
 - Visual interpretation of read quality
 - Workflow creation with paired-end data
 
-**Tools Used**: FastQC, Trimmomatic  
+**Tools Used**: BEDtools, Datamash,  Sort 
 **Challenges**:
+- Took time to understand exons and SNPs and its parameters
 - Understanding trimming parameters
 - Slow loading of history panel
   
