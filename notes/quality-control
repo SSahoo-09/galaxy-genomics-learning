@@ -1,0 +1,61 @@
+🌌 Getting Started with Galaxy: My Third Tutorial in Genomics
+🧬 Tutorial: Quality Control
+
+🔧 Key Tools Used: 
+Tool | Purpose 
+Upload Data |	Import raw sequencing reads (FASTQ files)
+FastQC | Generate a quality report of sequencing reads
+MultiQC | Summarize multiple QC reports into one file
+FastQC (after trimming) | Re-run QC to check improvement
+
+These may not be genomics-specific tools but general-purpose data wrangling tools. 
+
+🗃️ Data Used:
+The tutorial uses paired-end FASTQ files from Homo sapiens chromosome 22:
+Sample: ERR458493
+Data type: Paired-end RNA-seq reads
+Size: Truncated to a small region for speed
+
+Files:
+ERR458493_1.fastq.gz (forward reads)
+ERR458493_2.fastq.gz (reverse reads)
+
+Goals: The objective was to
+
+-> Understand the need for quality assessment in sequencing data
+
+-> Use FastQC to analyze read quality
+
+-> Trim poor-quality reads and adapter sequences 
+
+-> Re-check quality post-trimming
+
+-> Combine all QC reports using MultiQC
+
+🧠 What I Learned:
+How to interpret FastQC modules (per base quality, GC content, duplication levels)
+
+Why adapter trimming and quality filtering are crucial for reliable downstream analysis
+
+How to compare raw vs. cleaned reads
+
+How MultiQC combines all FastQC results into one, user-friendly report
+
+How to create a workflow in Galaxy that includes QC + trimming + summary
+
+
+⚠️ Challenges I Faced
+At first, interpreting FastQC reports felt overwhelming, understanding red/yellow/green flags took some review. It was tricky figuring out the correct parameters like leading/trailing quality cutoffs.
+I had to re-run several steps to compare pre/post trimming results correctly. But once I got the hang of it, I really saw the advantages of QC pipelines.
+
+📤 What I Uploaded to GitHub
+
+✅ Summary notes (this post!)
+
+✅ Learning log entry
+
+✅ Screenshot of dataset preview 
+
+I’ll be documenting everything on GitHub and continuing to build a public learning portfolio as I go.
+
+🧠 If you're just getting started with Galaxy or bioinformatics, I highly recommend this short but powerful tutorial. It’s the perfect first step into reproducible data science in the life sciences.
