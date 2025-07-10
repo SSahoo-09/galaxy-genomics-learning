@@ -57,7 +57,7 @@ I didn’t realize that dataset names matter when building workflows, naming the
 
 ✅ Learning log entry
 
-✅ Screenshot of dataset preview (optional)
+✅ Screenshot of dataset preview
 
 🚀 What’s Next?
 Now that I’ve understood the Galaxy interface and the basics of workflow building, I’m moving on to tutorials that use real genomics data — starting with Galaxy Basics for Genomics (FastQC, Sort, mapping, and more).
