@@ -23,7 +23,7 @@ Happy learning! ✨
 
 # Progress Tracker Table 
 
-## 📈 Progress Tracker: Intro to Galaxy & Genomics
+## 📈 Progress Tracker: Galaxy Learning Pathways
 
 | Tutorial Name | Status | Notes/Reflections |
 |---------------|--------|-------------------|
