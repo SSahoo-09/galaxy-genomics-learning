@@ -28,7 +28,7 @@ Happy learning! ✨
 | Tutorial Name | Status | Notes/Reflections |
 |---------------|--------|-------------------|
 | A short introduction to Galaxy | ✅ Completed | Learned interface, tools, histories |
-| Galaxy Basics for Genomics | ✅ Completed  | FASTQ, FASTQC, BEdtools |
+| Galaxy Basics for Genomics | ✅ Completed  | FASTQ, FASTQC, BEDtools |
 | Quality Control | ⌛In Progress | - |
 | Mapping | ⬜ Not Started | - |
 | An Introduction to Genome Assembly | ⬜ Not Started | - |
