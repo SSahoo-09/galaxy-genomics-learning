@@ -15,7 +15,7 @@ This log captures my reflections, learnings, and challenges as I go through the 
 **Tools Used**: Upload tool, cut tool, history manager  
 **Challenges**:
 - Initially confused between histories and datasets
-- - Took time to understand  various tools 
+- Took time to understand  various tools 
 - Took time to understand data linking in workflows
 
 **Tutorial Completed**: Galaxy Basics for Genomics  
