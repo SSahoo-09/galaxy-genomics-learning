@@ -24,7 +24,7 @@ This log captures my reflections, learnings, and challenges as I go through the 
 - Visual interpretation of read quality
 - Workflow creation with paired-end data
 
-**Tools Used**: BEDtools, Datamash,  Sort 
+**Tools Used**: BEDtools, Datamash,  Sort , FastQC
 **Challenges**:
 - Took time to understand exons and SNPs and its parameters
 - Understanding trimming parameters
