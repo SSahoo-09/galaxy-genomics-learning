@@ -21,8 +21,7 @@ Happy learning! ✨
 — Sanskriti
 
 
-
-2. Progress Tracker Table 
+# Progress Tracker Table 
 
 ## 📈 Progress Tracker: Intro to Galaxy & Genomics
 
