@@ -1,0 +1,67 @@
+🌌 Getting Started with Galaxy: My First Tutorial in Genomics
+🧬 Tutorial: A Short Introduction to Galaxy
+As I begin my journey into bioinformatics and computational biology, I wanted to build a strong foundation, and Galaxy tutorial gave me exactly that.
+
+This “short introduction” isn’t about advanced sequencing or statistics. Instead, it helps to think like a data scientist inside Galaxy: importing data, running tools, examining outputs, and building reproducible workflows. Simple, but powerful.
+
+🔧 Key Tools Used: 
+Tool |	Purpose 
+Upload Data |	Import datasets from Galaxy or external links
+Cut Columns from a Table |	Keep only the needed fields from a dataset
+Sort | Organize rows based on a particular column
+Join Two Datasets |	Combine datasets by a shared field (like gene ID)
+Group |	Count or summarize unique values in a column
+
+These may not be genomics-specific tools but general-purpose data wrangling tools. 
+
+🗃️ Data Used
+The data used in the Galaxy Project's "Introduction to Galaxy" tutorial was a FASTQ file.
+
+Goals: The Galaxy Project tutorial used DNA sequencing reads from a bacteria in FASTQ format as its data.
+
+The main goal of this tutorial was to introduce the Galaxy user interface and the fundamental operations. It aimed:
+-> How to get started in Galaxy.
+
+-> How to upload files.
+
+-> How to use various tools.
+
+-> How to view results and manage histories.
+
+-> How to extract and run a workflow.
+
+-> How to share a history.
+
+🧠 What I Learned
+How to navigate the Galaxy interface (histories, tools, datasets)
+
+Understanding how each tool execution creates a new dataset
+
+Renaming, annotating, and organizing datasets for clarity
+
+Exporting and sharing workflows for reproducibility
+
+I also exported my own .ga workflow from this tutorial — a reusable pipeline I can run again or adapt later. (Check it out in my GitHub repo! 🔗)
+
+⚠️ Challenges I Faced
+At first, the history panel felt a bit overwhelming, it updates constantly with every step, but once I understood that each tool produces a new dataset, it clicked.
+
+Figuring out how to rerun a tool with changed parameters took some trial and error.
+
+I didn’t realize that dataset names matter when building workflows, naming them well really helps.
+
+📤 What I Uploaded to GitHub
+✅ Galaxy-Workflow-QC_and_filtering.ga (workflow file)
+
+✅ Summary notes (this post!)
+
+✅ Learning log entry
+
+✅ Screenshot of dataset preview (optional)
+
+🚀 What’s Next?
+Now that I’ve understood the Galaxy interface and the basics of workflow building, I’m moving on to tutorials that use real genomics data — starting with Galaxy Basics for Genomics (FastQC, Sort, mapping, and more).
+
+I’ll be documenting everything on GitHub and continuing to build a public learning portfolio as I go.
+
+🧠 If you're just getting started with Galaxy or bioinformatics, I highly recommend this short but powerful tutorial. It’s the perfect first step into reproducible data science in the life sciences.
