@@ -31,7 +31,8 @@ Happy learning! ✨
 | Galaxy Basics for Genomics | ✅ Completed  | FASTQ, FASTQC, |
 | Quality Control | ✅ Completed |  BEDtools, Nanoplot, PycoQC, Cutadapt, FASTQE, FASTQC |
 | Mapping | ✅ Completed |  Bowtie2, Samtools Stats, IGV, JBrowse |
-| An Introduction to Genome Assembly | ⬜ Not Started | - |
+| An Introduction to Genome Assembly | ✅ Completed | FastQC, MultiQC, velveth, Quast |
+| Chloroplast genome assembly | ⬜ Not Started | - |
 
 
 
