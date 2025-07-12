@@ -30,7 +30,7 @@ Happy learning! ✨
 | A short introduction to Galaxy | ✅ Completed | Learned interface, tools, histories |
 | Galaxy Basics for Genomics | ✅ Completed  | FASTQ, FASTQC, |
 | Quality Control | ✅ Completed |  BEDtools, Nanoplot, PycoQC, Cutadapt, FASTQE, FASTQC |
-| Mapping | ⌛ In Progress | - |
+| Mapping | ✅ Completed |  Bowtie2, Samtools Stats, IGV, JBrowse |
 | An Introduction to Genome Assembly | ⬜ Not Started | - |
 
 
