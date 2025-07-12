@@ -1,0 +1,39 @@
+🌌 Getting Started with Galaxy: My Fifth Tutorial in Genomics
+🧬 Tutorial: General Introduction to Genome Assembly
+
+🔧 Key Tools Used:
+Tool |	Purpose
+Velvet (velveth & velvetg) |	Perform de novo genome assembly using de Bruijn graphs
+FastQC |	Assess quality of raw sequencing reads
+MultiQC |	Combine QC reports for easier interpretation
+Quast |	Evaluate quality of the assembled genome (e.g., N50, number of contigs)
+
+🗃️ Data Used:
+Species: Small genome (simulated)
+A set of reads from an imaginary Staphylococcus aureus bacterium with a miniature genome (197,394 bp).
+Read Type: Paired-end FASTQ files (interleaved)
+
+📌 Goals:
+-> Understand the concept of de novo assembly using short reads
+-> Learn how k-mer size affects assembly quality
+-> Generate and evaluate genome assemblies using Velvet
+-> Interpret assembly statistics 
+
+🧠 What I Learned:
+How de novo assembly works when there's no reference genome available
+The trade-offs involved in selecting different k-mer sizes
+How to assess assembly success using metrics like total length, and number of contigs
+The role of quality control before and after assembly
+
+⚠️ Challenges I Faced:
+Choosing the correct k-mer size required several trials and careful interpretation
+Understanding interleaved read formats and preparing input for Velvet correctly
+Interpreting output from QUAST and linking it back to assembly decisions
+Tracking datasets in Galaxy history — naming and organizing helped a lot
+
+📤 What I Uploaded to GitHub:
+✅ Summary notes (this post!)
+✅ Screenshots of dataset preview
+✅ Learning log entry with assembly parameters and observations
+
+This tutorial gave me hands-on experience with one of the most fundamental problems in genomics: assembling a genome from scratch. It’s ideal for understanding the computational steps behind creating genome drafts from raw sequencing data.
