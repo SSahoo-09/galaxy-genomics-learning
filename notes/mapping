@@ -1,0 +1,52 @@
+🌌 Getting Started with Galaxy: My Fourth Tutorial in Genomics
+🧬 Tutorial: Mapping RNA-seq Reads to a Reference Genome
+
+🔧 Key Tools Used:
+
+Tool	| Purpose
+SAMtools | sort	Sort BAM files by genomic coordinates for efficient access
+Bowtie2 |	Map sequencing reads to the reference genome (Mouse mm10)
+IGV	| Visualize mapped reads (optional, local tool)
+
+These tools are fundamental for aligning short reads and preparing them for downstream analysis like variant calling or gene expression quantification.
+
+🗃️ Data Used:
+Species: Mus musculus (Mouse)
+
+Genome: mm10 (pre-indexed in Galaxy for Bowtie2)
+
+Input: Paired-end FASTQ files
+
+Files:
+wt_H3K4me3_read1.fastq.gz
+wt_H3K4me3_read2.fastq.gz
+
+📌 Goals:
+-> Learn to map the reads of an experiment to a reference genome 
+-> Understand how to evaluate mapping results
+-> Count the number of reads per gene 
+-> Interpret gene expression results from aligned reads
+
+🧠 What I Learned:
+
+The importance of using the correct reference genome and index
+
+How mapping quality scores indicate alignment confidence
+
+How to interpret mapping statistics like alignment rate and read distribution
+
+⚠️ Challenges I Faced:
+I had some confusion choosing the correct mm10 genome index from the Galaxy history vs built-in reference.
+Also, understanding paired-end read orientation and interpreting the output took some time.
+Double-checking input file pairings and matching strand-specific options was key.
+
+📤 What I Uploaded to GitHub:
+✅ Summary notes (this post!)
+✅ Screenshot of dataset preview 
+✅ Learning log entry
+
+This tutorial deepened my understanding of how raw RNA-seq reads are aligned and quantified — foundational for any downstream transcriptomic analysis.
+
+📣 Recommendation:
+If you're new to RNA-seq analysis, this tutorial is a must-do after learning basic quality control. It connects sequencing data to gene-level expression profiles — a vital step in functional genomics!
+
