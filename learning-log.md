@@ -29,7 +29,21 @@ This log captures my reflections, learnings, and challenges as I go through the 
 - Took time to understand exons and SNPs and its parameters
 - Understanding trimming parameters
 - Slow loading of history panel
+
+**Tutorial Completed**: Mapping 
+**Key Concepts Learned**:
+- Mapping the reads of an experiment to a reference genome
+- Align paired-end reads to the mouse reference genome using Bowtie2
+- Convert and sort alignment files with Samtools
+- Index BAM files for quick access in visualization or downstream tasks
+- Visualize aligned reads using IGV
   
+**Tools Used**: Samtools, Bowtie2,  IGV ,  JBrowse
+**Challenges**:
+- Took time to select the correct reference genome (mm10) in the tool interface took some extra care.
+- Double-checked that my input files were properly paired and labeled.
+- Loading BAM files into IGV required ensuring the .bai index file was correctly generated.
+
 ---
 
 
