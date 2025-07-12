@@ -44,6 +44,22 @@ This log captures my reflections, learnings, and challenges as I go through the 
 - Double-checked that my input files were properly paired and labeled.
 - Loading BAM files into IGV required ensuring the .bai index file was correctly generated.
 
+**Tutorial Completed**: Genome Assembly 
+**Key Concepts Learned**:
+- Principles of de novo genome assembly using short-read data (de Bruijn graph strategy via Velvet) 
+- Download and import raw sequencing reads (paired-end FASTQ) and reference FASTA into Galaxy 
+- Assess read quality and characteristics with FastQC and MultiQC (e.g., read length, coverage, quality scores, GC content, adapter/remove contaminants)
+- Decide on the optimal k‑mer size based on read length and coverage
+- Run Velvet (velveth + velvetg) to assemble reads into contigs; use interleaved paired-end input mode 
+- Evaluate assembly quality: collect statistics on contigs (e.g. N50, total length, number of contigs) Galaxy Training Network
+
+**Tools Used**: FastQC, MultiQC, Velvet (velveth + velvetg) on Galaxy platform
+**Challenges**:
+- Choosing appropriate k‑mer size without over-fragmenting or over-merging contigs
+- Ensuring sufficient coverage and read quality metrics were acceptable before assembly
+- Interpreting assembly statistics 
+- Managing Galaxy history structure and dataset naming so outputs remain clear and traceable
+  
 ---
 
 
