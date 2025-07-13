@@ -59,7 +59,17 @@ This log captures my reflections, learnings, and challenges as I go through the 
 - Ensuring sufficient coverage and read quality metrics were acceptable before assembly
 - Interpreting assembly statistics 
 - Managing Galaxy history structure and dataset naming so outputs remain clear and traceable
-  
+
+**Tutorial Completed**: Chloroplast Genome Assembly 
+**Key Concepts Learned**:  
+- Learn to isolate organelle genomes (chloroplast) from total genomic DNA reads
+- Identify and extract chloroplast-specific sequences
+- Visualize assembly graph to understand contig structure
+
+**Tools Used**: Prokka, Bandage Image, Bandage Info
+**Challenges**:
+- Quality control is essential to avoid assembling erroneous or fragmented contigs
+- Bandage helps interpret how different contigs are connected within the assembly graph
 ---
 
 
