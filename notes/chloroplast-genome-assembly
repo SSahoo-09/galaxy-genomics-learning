@@ -1,0 +1,37 @@
+🌌 Getting Started with Galaxy: My Sixth Tutorial in Genomics
+🧬 Tutorial: Chloroplast Genome Assembly
+
+🔧 Key Tools Used:
+
+Tool |	Purpose
+Get Data  | Import raw FASTQ files for the from sweet potato sample, from the paper Zhou et al. 2018.
+Bandage Image | Visulaize de novo assembly graphs
+Bandage Info | determine statistics of de novo assembly graphs
+Prokka | Prokaryotice genome annotation
+
+🗃️ Data Used:
+Sweet potato sample, from the paper Zhou et al. 2018.
+Chloroplast-specific assembly 
+
+📌 Goals:
+Learn to isolate organelle genomes (chloroplast) from total genomic DNA reads
+Perform quality trimming and genome assembly
+Identify and extract chloroplast-specific sequences 
+Visualize assembly graph to understand contig structure
+
+🧠 What I Learned:
+Quality control is essential to avoid assembling erroneous or fragmented contigs
+Bandage helps interpret how different contigs are connected within the assembly graph
+
+⚠️ Challenges I Faced:
+Locating the correct FASTQ files and understanding data formats
+Interpreting the output to confidently identify chloroplast sequences
+Understanding the usage of Bandage
+Identifying the best contig when multiple similar hits appeared
+
+📤 What I Uploaded to GitHub:
+✅ Summary notes (this post!)
+✅ Screenshot of Dataset Preview
+✅ Learning log entry
+
+This tutorial was an excellent introduction to working with organelle genomes and understanding how targeted assemblies differ from whole-genome projects. It also highlighted how public data can be used to reproduce research-like workflows.
