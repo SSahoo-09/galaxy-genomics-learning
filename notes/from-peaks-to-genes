@@ -1,0 +1,40 @@
+🌌 Getting Started with Galaxy: My Fifth Tutorial in Genomics
+🧬 Tutorial: From Peaks to Genes 
+
+🔧 Key Tools Used
+| Tool | Purpose | 
+| Get Data | Import interval datasets from UCSC for gene mapping | 
+| Replace Text | Modify chromosome names for compatibility (20 → chr20) | 
+| Convert Genomic Intervals to BED | Format conversion for downstream analysis | 
+| bedtools Intersect | Find overlapping peaks and genes | 
+| Extract Workflow | Create a reproducible analysis pipeline | 
+
+🗃️ Data Used
+- Public ChIP-seq peak dataset
+- UCSC known genes interval track (GRCh37/hg19)
+
+📌 Goals
+- Link ChIP-seq peaks to nearby genes
+- Understand different strategies for peak-gene associations
+- Explore summit-based refinement for greater mapping accuracy
+- Learn how workflows support reproducible research
+
+🧠 What I Learned
+- Chromosome formatting (e.g. chrX vs X) matters for tool compatibility
+- Naive overlap-based mapping may miss finer regulatory relationships
+- Summit positions offer more biologically relevant gene associations
+- Extracting workflows makes complex analyses repeatable and shareable
+
+⚠️ Challenges I Faced
+- Interpreting interval formats and BED specifications
+- Adjusting attributes to avoid tool errors (like incorrect column naming)
+- Creating consistent naming conventions across datasets
+- Understanding the rationale behind summit-based mapping
+
+📤 What I Uploaded to GitHub
+✅ Summary notes (this post!)
+✅ Workflow from Galaxy
+✅ Dataset Preview
+✅ Learning Log Entry 
+
+This tutorial gave me a deeper appreciation for precision in genomic interval analysis. It revealed how small changes in method (like using summits) can shift biological interpretations. I now feel more confident building and debugging Galaxy workflows from scratch.
