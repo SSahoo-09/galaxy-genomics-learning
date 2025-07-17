@@ -70,8 +70,21 @@ This log captures my reflections, learnings, and challenges as I go through the 
 **Challenges**:
 - Quality control is essential to avoid assembling erroneous or fragmented contigs
 - Bandage helps interpret how different contigs are connected within the assembly graph
+  
 ---
+## 📅 Week of July 14–20, 2025
 
+**Tutorial Completed**: From peaks to genes
+**Key Concepts learned**:
+- Learning how to associate peak regions with nearby genes to infer potential regulatory targets
+- Using the summit of a peak for a more precise gene annotation
+- Importing datasets from UCSC, tagging files, and managing histories
+- Extracting workflows from history to automate and reproduce analyses.
 
+ **Tools Used**: UCSC Main, Get Flanks, Intersect, Group, Sort, Cut 
+ **Challenges**:
+ - Understanding and differentiation between Genomic Formats like BED and interval files, and knowing how to manipulate them correctly.
+ - Chromosome naming convention was a bit confusing without context
+ - Peak-Gene AAsociation Logic and decing whether to include promoter regions or just gene bodies when associating peaks with genes required biological reasoning.
 
 
