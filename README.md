@@ -34,7 +34,8 @@ Happy learning! ✨
 | An Introduction to Genome Assembly | ✅ Completed | FastQC, MultiQC, velveth, Quast |
 | Chloroplast genome assembly | ✅ Completed  | Nanoplot, Flye, Bandage Info, Bandage Image, Map with BWA-MEM, pilon, Prokka, JBrowse genome browser |
 | From peaks to genes | ✅ Completed  | UCSC Main, Get Flanks, Intersect, Group, Sort, Cut |
-| Formation of the Super-Structures on the Inactive X | ⬜ Not Started | - |
+| Formation of the Super-Structures on the Inactive X | ✅ Completed  |  FASTQC, TrimGalore, Bowtie2, IGV, plotCorrelation, plotFingerpeint |
+| CUT&RUN data analysis | ⬜ Not Started | - |
 
 
 
