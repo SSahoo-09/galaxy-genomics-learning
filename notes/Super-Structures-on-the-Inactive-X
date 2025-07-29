@@ -1,1 +1,72 @@
+🌌 **Galaxy Tutorial Log**: Formation of Super-Structures on the Inactive X 
+🧬 **Tutorial**: Epigenetic Regulation via Chromatin Architecture
+
+---
+
+🔧 **Key Tools Used**  
+| Tool            | Purpose                                                                 |
+|-----------------|-------------------------------------------------------------------------|
+| Upload Data     | Import raw ChIP-seq FASTQ files                                         |
+| FastQC          | Assess sequencing read quality                                          |
+| Trim Galore     | Remove low-quality bases and adapter sequences                          |
+| Bowtie2         | Map reads to reference genome                                           |
+| MACS2           | Call peaks to identify enriched regions                                 |
+| bamCompare      | Normalize ChIP-seq signal against input control                         |
+| plotHeatmap     | Visualize signal intensity across genomic regions                       |
+
+These tools are tailored for ChIP-seq workflows but share foundational principles with general sequencing QC and analysis.
+
+---
+
+🗃️ **Data Used**  
+The tutorial uses wild-type mouse ChIP-seq datasets from Wang et al. (2018), targeting histone marks and architectural proteins:
+
+- **Histone Marks**: H3K27me3 (repressive), H3K4me3 (activating)  
+- **Architectural Protein**: CTCF  
+- **Control**: Input DNA (no immunoprecipitation)
+
+Each target has two biological replicates:
+- `wt_H3K4me3_rep1.fastq.gz`, `wt_H3K4me3_rep2.fastq.gz`  
+- `wt_H3K27me3_rep1.fastq.gz`, `wt_H3K27me3_rep2.fastq.gz`  
+- `wt_CTCF_rep1.fastq.gz`, `wt_CTCF_rep2.fastq.gz`  
+- `wt_input_rep1.fastq.gz`, `wt_input_rep2.fastq.gz`
+
+---
+
+🎯 **Goals of the Tutorial**
+- Understand how histone modifications and chromatin structure contribute to X chromosome inactivation
+- Perform quality control and trimming of ChIP-seq reads
+- Map reads to the mouse genome and assess alignment quality
+- Normalize ChIP-seq signal and compare across samples
+- Identify enriched regions (peaks) for histone marks and CTCF
+- Visualize differences between active and inactive X chromosomes
+
+---
+
+🧠 **What I Learned**
+- How H3K27me3 and H3K4me3 influence transcriptional activity    
+- How to interpret ChIP-seq QC metrics (IP strength, correlation between replicates)  
+- Why normalization against input controls is essential for accurate peak calling  
+- How to use heatmaps to compare signal across genomic regions
+
+---
+
+⚠️ **Challenges I Faced**
+- Understanding the biological significance of histone marks and their spatial distribution  
+- Managing multiple replicates and ensuring consistent preprocessing  
+- Choosing appropriate parameters for peak calling and normalization  
+- Interpreting heatmaps and signal plots in the context of chromatin structure
+
+---
+
+📤 **What I Uploaded to GitHub**
+✅ Summary notes (this post!)  
+✅ Dataset Preview
+✅ Learning log entry with reflections on chromatin architecture
+
+---
+
+🧠 **Why This Tutorial Matters**
+If you're exploring epigenetics or chromatin biology, this tutorial is really helpful! It blends experimental design with computational analysis and offers a hands-on look at how chromatin structure influences gene regulation. It's perfect for anyone learning ChIP-seq or X chromosome inactivation studies.
+
 
