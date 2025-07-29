@@ -87,4 +87,13 @@ This log captures my reflections, learnings, and challenges as I go through the 
  - Chromosome naming convention was a bit confusing without context
  - Peak-Gene AAsociation Logic and decing whether to include promoter regions or just gene bodies when associating peaks with genes required biological reasoning.
 
+**Tutorial Completed**: Formation of the Super-Structures on the Inactive X
+**Key Concepts learned**:
+- Learned ChIP-seq pipeline (Quality Control, Read mapping, Peak calling, Normalization and visualization)
+- Focused on wild-type mouse data from Wang et al. (2018)
+- Examined differences in histone marks and CTCF binding between active and inactive X chromosomes.
 
+**Tools Used**: FastQC, Bowtie2, IGV, plotCorrelation, plorFingerprint
+ **Challenges**:
+ - Adjusting sequencing depth and input bias to make fair comparisons
+ - Detecting true enrichment regions while avoiding false positives.
